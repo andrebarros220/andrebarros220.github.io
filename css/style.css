@@ -164,7 +164,7 @@ div.container6 p {
 
 
 #inicio {    
-     background-image: url( ../images/desk.jpeg);
+     background-image: url( https://github.com/andrebarros220/andrebarros220.github.io/blob/master/desk.jpeg);
      background-size: cover;
      font-family: 'Anton' !important;
      width: 100%;
@@ -175,7 +175,7 @@ div.container6 p {
   }
 
 #sobre {
-     background-image: url( ../images/notb.jpeg);
+     background-image: url(https://github.com/andrebarros220/andrebarros220.github.io/blob/master/notb.jpeg);
      background-size: cover;
      font-family: 'Anton'!important;
      color: #032a33;
@@ -187,7 +187,7 @@ div.container6 p {
 
 #portfolio {
    
-    background-image: url( ../images/penc.jpeg);
+    background-image: url( https://github.com/andrebarros220/andrebarros220.github.io/blob/master/penc.jpeg);
      background-size: cover;
     width: 100%;
     padding :150px ;
