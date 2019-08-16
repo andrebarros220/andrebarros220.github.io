@@ -1,27 +1,24 @@
 
-// Scroll Suave
+(function () {
 
-(function(){
-        
-        jQuery(document).ready(function($) {
-            $(".scroll").click(function(event) {
-                event.preventDefault();
-                $('html,body').animate({
-                    scrollTop: $(this.hash).offset().top
-                }, 700);
-            });
-        })})();
-
-
-
+	jQuery(document).ready(function ($) {
+		$(".scroll").click(function (event) {
+			event.preventDefault();
+			$('html,body').animate({
+				scrollTop: $(this.hash).offset().top
+			}, 700);
+		});
+	})
+})();
 
 
 // Debounce 
-debounce = function(func, wait, immediate) {
+debounce = function (func, wait, immediate) {
 	var timeout;
-	return function() {
-		var context = this, args = arguments;
-		var later = function() {
+	return function () {
+		var context = this,
+			args = arguments;
+		var later = function () {
 			timeout = null;
 			if (!immediate) func.apply(context, args);
 		};
@@ -34,15 +31,15 @@ debounce = function(func, wait, immediate) {
 
 
 // Animacao
-(function(){
+(function () {
 	var $target = $('.anime'),
-			animationClass = 'anime-start',
-			offset = $(window).height() * 4/3;
+		animationClass = 'anime-start',
+		offset = $(window).height() * 4 / 3;
 
 	function animeScroll() {
 		var documentTop = $(document).scrollTop();
 
-		$target.each(function(){
+		$target.each(function () {
 			var itemTop = $(this).offset().top;
 			if (documentTop > itemTop - offset) {
 				$(this).addClass(animationClass);
@@ -54,9 +51,8 @@ debounce = function(func, wait, immediate) {
 
 	animeScroll();
 
-	$(document).scroll(debounce(function(){
+	$(document).scroll(debounce(function () {
 		animeScroll();
 	}, 200));
 })();
-
 
