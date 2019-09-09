@@ -17,13 +17,13 @@ body {
 }
 
 .btn-primary :hover {
-	background-color: #f16821 !important;
+	background-color: #FFD700 !important;
 }
 
 .textport {
 	font-size: 60px;
-	font-family: 'Sacramento', cursive;
-	color: #f16821;
+	font-family: 'Sacramento', serif;
+	color: #FFD700;
 	padding: 30px;
 }
 
@@ -32,12 +32,12 @@ body {
 }
 
 .my-4 {
-	color: #4e4e4e;
+	color: #b4b4b4;
 }
 
 .my-7 {
-	color: #563d7c;
-	background-color: #563d7c;
+	color: #b4b4b4;
+	background-color: #b4b4b4;
 	width: 60%;
 }
 
@@ -63,7 +63,7 @@ body {
 	font-family: 'Sacramento', bold;
 	font-size: 350%;
 	text-shadow: 5px 5px 5px #000;
-	color: #f16821;
+	color: #FFD700;
 }
 
 .carousel-caption h3 {
@@ -258,7 +258,7 @@ footer a {
 	color: white;
 	border: 3.5px solid #8B7D7B;
 	border-radius: 100%;
-	background-color: #563d7c;
+	background-color: #FFD700;
 }
 
 .circle-historic>li .circle-historic-image h4 {
@@ -293,7 +293,7 @@ footer a {
 
 .circle-historic .circle-historic-heading h4.subheading {
 	text-transform: none;
-	color: #f16821;
+	color: #FFD700;
 }
 
 .circle-historic .circle-historic-body>ul,
@@ -312,13 +312,13 @@ ul.social-buttons li a {
 	border-radius: 100%;
 	outline: none;
 	display: block;
-	background-color: #696969;
+	background-color: #FFD700;
 }
 
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-	background-color: #f16821;
+	background-color: #696969;
 }
 
 .team-member {
@@ -370,7 +370,7 @@ ul.social-buttons li a:hover {
 .ico-orange {
 	transition: all 500ms ease;
 	font-size: 4rem;
-	color: #f16821;
+	color: #FFD700;
 }
 
 .skill-box .s-title {
@@ -516,7 +516,6 @@ ul.social-buttons li a:hover {
 	}
 }
 
-
 /*---Firefox Bug Fix --*/
 
 .carousel-item {
@@ -534,39 +533,3 @@ ul.social-buttons li a:hover {
 	padding: 1rem;
 }
 
-svg {
-	display: block;
-	height: 40vh;
-	margin-top: -20vh;
-	width: 100%;
-	background-color: #121212;
-	color: #121212;
-}
-
-#ball {
-	width: 300px;
-	height: 300px;
-	background-image: url("https://m1.behance.net/rendition/modules/100887987/disp/c845b52e70de95a5b73b23f254ef1d29.gif");
-	-moz-border-radius: 70%;
-	-webkit-border-radius: 70%;
-	-o-border-radius: 70%;
-	-ms-border-radius: 70%;
-}
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
